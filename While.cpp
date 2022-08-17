@@ -10,9 +10,9 @@ int main(){
   int tentativas = 0;
 
   int aleatorio = 10+(rand() % 20);
+  int x;
 
   while (true){
-    int x;
     cout << "Digite um numero: ";
     cin >> x;
       
