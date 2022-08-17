@@ -8,8 +8,8 @@ simbolo   	Descrição
 .           Seleção de elemento por identificador
 ->          Seleção de elemento por ponteiro
 
-! ~         Não lógico e complemento
-(tipo)      Conversão de tipo de dado ,casting
+! ~   NOT   Não lógico e complemento
+(type)      Conversão de tipo de dado ,casting
 *           Desreferência
 &           Referência (endereço de elemento)
 sizeof      tamanho de elemento
@@ -23,8 +23,8 @@ delete[]    Desalocação dinâmica de memória
 /           Divisão
 %           Módulo (resto)
 
-<<          Deslocamento de bits à esquerda
->>          Deslocamento de bits à direita
+<<   SHL    Deslocamento de bits à esquerda
+>>   SHR    Deslocamento de bits à direita
 <           Menor que”
 <=          Menor ou igual que
 >           Maior que
@@ -32,10 +32,10 @@ delete[]    Desalocação dinâmica de memória
 
 ==          Igual a
 !=	        Diferente de
-&	          E para bits
-^	          Ou exclusivo para bits
-|	          Ou para bits
-&&	        E lógico
+&	   AND    E para bits
+^	   XOR    Ou exclusivo para bits
+|	   OR     Ou para bits
+&&	        E lógico    
 ||	        Ou lógico
 x ? y : z	  Condição ternária	direita para esquerda
 =           Atribuição
