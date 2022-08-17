@@ -53,12 +53,16 @@ throw	      Lançamento de exceção
 ,	          Vírgula
 */
 
+// inversão de valores em c++
 #include <iostream>
 using namespace std;
 
 int main(void){
 
-  cout << (24+5);
+  int num = 10;
+  // num = num * -1;
+  num =- num;
+  cout << num;
 
   return(0);
 }
